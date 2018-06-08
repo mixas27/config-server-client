@@ -1,4 +1,4 @@
 msg: Hello world. This is from config server. Development environment. Changed3. Test branch
 
 logging:
-  config: https://raw.githubusercontent.com/mixas27/config-server-client/master/logback.xml
+  config: http://localhost:8888/${spring.application.name}/${spring.profiles.active}/${spring.cloud.config.label}/logback.xml
