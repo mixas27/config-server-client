@@ -1,1 +1,4 @@
 msg: Hello world. This is from config server. Development environment. Changed3. Test branch
+
+logging:
+  config: https://raw.githubusercontent.com/mixas27/config-server-client/master/logback.xml
