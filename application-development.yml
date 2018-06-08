@@ -1,4 +1,4 @@
-msg: Hello world. This is from config server. Development environment. Changed3. Test branch
+msg: '{cipher}4531AQBR0aEPLrLfmXgbDVhacyywF9lUztzNaJf267iil+WKZe9Nr1md19N70ufccJ3Ye+7EH35MjSzFfsq2RPI5QpsC0e1LzcxBhCCd7jPPbuZjSYJJ7+/5ROmHNQjRkvN7nFXdd3J3UaSuoipbWbtQTn+s1AZKiruHpfzASeEpNRVHh3ekTR6daIjdUvREJLXr6YI3wAU9dX8X6+r2oDoso0vH/fg5ClbC03ht2TjZnlZWuLP4Ubs3aNw+bNhUkYKCoG9FW0O7BARaFZcskJ1r/C3pexMBEg6vDvvF4tR10t40Nmrhjua0nRMJHMr0MXRFh16NHcOYeMcE0VGYJn6KiCEGSzFIPaWehflY1eq5qbt4wLI5/4oMmhr9BFnC6HOSvcxRm9Rpu+TdbnVnjl+ABJZ2'
 
 logging:
   config: http://localhost:8888/${spring.application.name}/${spring.profiles.active}/${spring.cloud.config.label:master}/logback.xml
